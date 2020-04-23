@@ -1,0 +1,90 @@
+/* .detail-page form {
+  display: flex;
+  flex-direction: column;
+} */
+
+.photo-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0 !important;
+}
+
+.category-button {
+  margin-top: 0 !important;
+  width: 50%;
+  margin-bottom: 0.5em;
+  border-bottom: 3px solid #333333 !important;
+  border-right: 3px solid #333333 !important;
+}
+
+.uploaded-img {
+  /* max-height: 20vh; */
+  width: 80%;
+  margin-bottom: 1em;
+  border-radius: 8px;
+}
+
+.upload-image {
+  margin: 1em 0 1em;
+  background-color: transparent;
+  border: none;
+}
+
+.navigation-button {
+  text-decoration: underline black;
+  background-color: transparent;
+  font-size: 1em;
+}
+
+.selected-button {
+  border: 1px solid #333333 !important;
+}
+
+.step-count {
+  margin: 0;
+}
+
+.snap-form {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  visibility: hidden;
+}
+.buttons {
+  /* display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end; */
+  position: absolute;
+  top: 90%;
+  left: 85%;
+}
+
+.submit-button {
+  border-bottom: 3px solid #333333 !important;
+  border-right: 3px solid #333333 !important;
+}
+
+.navigation-items {
+  padding: 1em;
+}
+
+.picture-container {
+  /* padding-top: 0 !important;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center; */
+}
+
+.category-icon {
+  /* position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0.5em; */
+  width: 3em;
+  /* height: 3em; */
+}

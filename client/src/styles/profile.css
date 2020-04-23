@@ -1,0 +1,96 @@
+.user-snaps {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: whitesmoke;
+  overflow-y: scroll;
+}
+
+.snap-img-preview {
+  min-height: 10vh;
+  max-height: 10vh;
+  width: 15vh;
+  margin-bottom: 0.5em;
+}
+
+.snap-img-preview-profile {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  /* margin-bottom: 0.5em; */
+}
+
+.user-snap {
+  width: 50%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  max-width: 40%;
+  margin: 0.5em;
+}
+
+.snap-info {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-between;
+
+  color: whitesmoke;
+}
+
+.snap-edit {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  position: absolute;
+  /* POSITION ME PLEASE! -Markus */
+  /* top: 40%;
+  left: 50%; */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  z-index: 201;
+}
+
+.user {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  padding: 0.5em;
+  color: white;
+  border-bottom: 1px dotted rgb(163, 159, 159);
+}
+
+.user-score {
+  margin: 1em 0;
+  /* margin-bottom: 0.5em; */
+}
+
+.username {
+  margin: 0;
+  margin-left: 1em;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+}
+
+.image-vs-buttons {
+  position: relative;
+  margin: 0;
+  height: 15vh;
+}
+
+.image-vs-buttons-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 200;
+  top: 0%;
+}
+
+.action-button {
+  color: white;
+  border-radius: 2px;
+  background-color: transparent;
+}

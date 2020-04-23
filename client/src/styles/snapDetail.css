@@ -1,0 +1,13 @@
+.snap-img-detail {
+  width: 90%;
+  max-height: 20vh;
+}
+
+.content-header-text {
+  width: fit-content;
+  margin: 0;
+}
+
+.content-header-div {
+  width: 3em;
+}

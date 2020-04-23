@@ -1,0 +1,4 @@
+.category-buttons {
+  display: flex;
+  flex-flow: row wrap;
+}

@@ -1,0 +1,70 @@
+.mapContainer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  display: flex;
+  flex-flow: row;
+}
+
+/* Font Awesome Icon */
+.fa-map-marker-alt {
+  font-size: 2rem;
+  opacity: 1;
+}
+
+/* mapbox marker popups */
+.mapboxgl-popup {
+  max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.map {
+  position: absolute;
+  z-index: -1;
+}
+
+.mapboxgl-ctrl {
+  width: 5vh;
+  min-width: 40px;
+
+  /* float: "left"; */
+  /* padding: 10px; */
+}
+
+.map-controls {
+  display: flex;
+  margin-top: 68vh;
+  flex-flow: column nowrap;
+  align-self: flex-start;
+}
+
+.mapboxgl-ctrl {
+  width: 5vh;
+  min-width: 40px;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 1em;
+}
+
+.mapboxgl-ctrl > button {
+  height: 5vh;
+  min-height: 40px;
+}
+
+.map-geolocateStyle {
+  margin-bottom: 0.5em;
+}
+
+.geolocation-button {
+  z-index: 1;
+}

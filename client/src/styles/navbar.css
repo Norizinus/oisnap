@@ -1,0 +1,49 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: whitesmoke;
+  padding: 1em;
+  /* height: 4vw; */
+}
+
+.navbarHome {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: start;
+  align-content: center;
+}
+.logo {
+  height: 90%;
+  min-height: 30px;
+  max-height: 4vw;
+}
+
+.dropdown {
+  position: absolute;
+  right: 0;
+  padding: 1em;
+
+  background-color: whitesmoke;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+
+  border-bottom-left-radius: 10px;
+}
+
+.dropdown > a {
+  /* border: 1px solid black; */
+  width: 80%;
+  padding: 0.2em;
+}
+
+.fa-user-circle {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 2.5em;
+  color: black;
+}

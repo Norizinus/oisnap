@@ -1,0 +1,21 @@
+.preview {
+  height: 40vh;
+}
+
+.snap-img-preview {
+  /* height: 10vh; */
+  width: 90%;
+}
+
+.mapboxgl-popup-content {
+  padding: 0;
+  border-radius: 10px;
+}
+
+.time {
+  margin: 0;
+}
+
+.details-box > h3 {
+  margin: 0;
+}
